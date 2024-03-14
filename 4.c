@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int is_palindrome (int n){
+  int tmp = n;
+  int new = 0;
+  while (tmp != 0){
+    new = new * 10;
+    new = new + tmp%10;
+    tmp = tmp / 10;
+  }
+  if (new == n){
+    return 1;
+  }
+   else {
+     return 0;
+   }
+}
+
+
+int main () {
+  int out = 0;
+  for (int i = 100; i <1000; i++) {
+    for (int j = 100; j < i; j++){
+      if (is_palindrome(i*j)==1){
+        if (out < i*j){
+          out = i*j;
+        }
+      }
+    }
+  }
+  printf("%d",out);
+  return 0;
+}
