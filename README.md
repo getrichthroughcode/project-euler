@@ -1,4 +1,5 @@
-# project-euler
-this set of code aim to give my solution of the problems that you will find in project euler
-All the code is written in the C language.
-This is just a way for me to learn the syntax of C. If you find this interesting you can use it however you want, i hope that it will help you :)
+# Project Euler Solutions
+
+This repository contains my solutions to the problems found on Project Euler. All the code is written in the C language. It serves as a way for me to learn the syntax of C while solving interesting mathematical problems.
+
+Feel free to use this code however you want. I hope that it will be helpful to you and aid in your understanding of both C programming and the mathematical concepts behind the Project Euler problems.
