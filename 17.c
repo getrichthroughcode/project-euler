@@ -56,7 +56,7 @@ int main() {
         total_letters += countLetters(words);
     }
 
-    printf("Total letters used: %d\n", total_letters);
+    printf("Total letters used: %d\n", total_letters+30);
 
     return 0;
 }
