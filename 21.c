@@ -38,16 +38,16 @@ int SumOfProperDivisors(int n){
 
 int main(){
     int sum = 0;
-    int *HashTable = (int *)calloc(10000, sizeof(int));
+    int *Marker = (int *)calloc(10000, sizeof(int));
     for (int a = 1; a <= 10000; a++){
         printf("%d\n",a);
-        if (HashTable[a] == 0){
+        if (Marker[a] == 0){
             int b = SumOfProperDivisors(a);
             int c = SumOfProperDivisors(b);
             if (b != a && c == a){
                 sum = sum + b + a;
-                HashTable[b] = 1;
-                HashTable[a] = 1;
+                Marker[b] = 1;
+                Marker[a] = 1;
             }
         }
     }
