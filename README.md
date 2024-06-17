@@ -23,4 +23,4 @@ Project Euler is a collection of challenging mathematical/computer programming p
 
 ## Contributing 
 
-If you have improvements or additional solutions in other languages, feel free to fork the repository and submit a pull request.
+If you have improvements or additional solutions in other languages, feel free to fork the repository and submit a pull request
